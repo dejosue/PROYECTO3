@@ -16,8 +16,8 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         MyThread hilo1 = new MyThread();
-        MyThread hilo2 = new MyThread();
+         memoriMy hilo1 = new memoriMy();
+        memoriMy hilo2 = new memoriMy();
         
         hilo1.start();
         hilo2.start();
